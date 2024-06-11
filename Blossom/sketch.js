@@ -1,7 +1,11 @@
-let myImage;
+let images = [];
+let imageCount = 2;
 
+// to load images
 function preload() {
-  myImage = loadImage("img/1.jpg");
+  let img1 = loadImage('img/1.png');
+  let img2 = loadImage('img/2.png');
+  images = [img1,img2];
 }
 
 function setup() {
@@ -9,14 +13,17 @@ function setup() {
 }
 
 function mouseClicked() {
-  if (!myImage) {
-    console.error("Image not loaded!");
+  if (images.length === 0) {
+    console.error("Images not loaded!");
     return;
   }
-  else{
-    myImage.resize(100, 100);
-    image(myImage, mouseX, mouseY);
-  }
+
+  // Select a random image 
+  let randomImage = random(images);
+
+  // Resize
+  randomImage.resize(100, 100);
+  image(randomImage, mouseX, mouseY);
 }
 
 function windowResized() {
