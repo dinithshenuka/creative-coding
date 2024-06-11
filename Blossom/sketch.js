@@ -3,9 +3,9 @@ let imageCount = 2;
 
 // to load images
 function preload() {
-  let img1 = loadImage('img/1.png');
-  let img2 = loadImage('img/2.png');
-  images = [img1,img2];
+  for (let i = 0; i < imageCount; i++) {
+    images[i] = loadImage("img/" + i + ".png");
+  }
 }
 
 function setup() {
