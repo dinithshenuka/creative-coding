@@ -1,6 +1,6 @@
 Blossom: An Interactive Flower Dropper
 
-![IMG_3077](https://github.com/dinithshenuka/creative-coding/assets/94979426/d4c3ba13-d00b-47d4-9382-683e2ab8cc4b)
+![Screenshot 2024-06-30 at 10 47 33 PM](https://github.com/dinithshenuka/creative-coding/assets/94979426/f59140ce-d54f-4def-8e35-f2ec02b49779)
 
 Blossom allows users to interact with the window in a playful way to create a shower of flowers. 
 Here's how it works:
