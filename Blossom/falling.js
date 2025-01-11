@@ -11,11 +11,11 @@ let particles = [];
 let flowers = [];	 
 
 function preload() {
-  font = loadFont('Blossom/assets/MyUglyHandwriting-Regular.otf');
+  font = loadFont('/Blossom/assets/MyUglyHandwriting-Regular.otf');
   
   
     for (let i = 0; i < imageCount; i++) {
-        flowers[i] = loadImage("Blossom/img/" + i + ".png");
+        flowers[i] = loadImage("/Blossom/img/" + i + ".png");
     }
 }
 
